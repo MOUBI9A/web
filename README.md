@@ -1,82 +1,113 @@
-# Modern React TypeScript Application
+# ft_transcendence
 
-A modern, feature-rich React application built with TypeScript, Vite, and shadcn/ui components. This project provides a robust foundation for building scalable and maintainable web applications with a beautiful user interface.
+A modern, feature-rich Pong game platform built with TypeScript, React, and advanced web technologies. This project provides a robust foundation for multiplayer gaming with real-time capabilities, user authentication, and advanced features.
 
-## 🚀 Features
+## 🎮 Core Features
 
-- ⚡️ **Vite** - Lightning fast build tool
-- 🎨 **shadcn/ui** - Beautiful and customizable UI components
-- 📦 **TypeScript** - Type safety and better developer experience
-- 🎭 **Framer Motion** - Powerful animations
-- 🔄 **React Query** - Efficient data fetching and caching
-- 🎯 **React Hook Form** - Form handling with validation
-- 🎨 **Tailwind CSS** - Utility-first CSS framework
-- 📊 **Recharts** - Composable charting library
-- 🌓 **Dark Mode** - Built-in theme support
-- 🔍 **ESLint** - Code linting
-- 📱 **Responsive Design** - Mobile-first approach
+- Real-time multiplayer Pong game
+- Tournament system with matchmaking
+- User authentication and profiles
+- Live chat system
+- Advanced 3D graphics using Babylon.js
+- AI opponent with intelligent gameplay
+- Cross-platform compatibility
+
+## 🚀 Implemented Modules
+
+### Major Modules
+1. **Framework Backend** - Using Fastify with Node.js
+2. **Remote Players** - Real-time multiplayer support
+3. **Live Chat** - In-game communication system
+4. **AI Opponent** - Intelligent computer opponent
+5. **Graphics** - 3D implementation using Babylon.js
+6. **Standard User Management** - Complete user system with authentication
+7. **Two-Factor Authentication (2FA) and JWT** - Enhanced security
+
+### Minor Modules
+1. **Frontend Framework** - Using Tailwind CSS
+2. **Database** - SQLite integration
+3. **Support on All Devices** - Responsive design
+4. **Multiple Language Support** - Internationalization
 
 ## 📋 Prerequisites
 
 - Node.js (v18 or higher)
-- npm or yarn or bun
+- npm or yarn
+- Modern web browser (Firefox latest version required, others supported)
+- SQLite
 
 ## 🛠️ Installation
 
 1. Clone the repository:
    ```bash
    git clone <your-repo-url>
-   cd <project-directory>
+   cd ft_transcendence
    ```
 
 2. Install dependencies:
    ```bash
    npm install
-   # or
-   yarn install
-   # or
-   bun install
    ```
 
-3. Start the development server:
+3. Set up environment variables:
+   ```bash
+   cp .env.example .env
+   # Edit .env with your configuration
+   ```
+
+4. Start the development server:
    ```bash
    npm run dev
-   # or
-   yarn dev
-   # or
-   bun dev
    ```
 
-## 🚀 Available Scripts
+## 🎮 Game Features
 
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run build:dev` - Build for development
-- `npm run preview` - Preview production build
-- `npm run lint` - Run ESLint
+- **Classic Pong Gameplay**: Experience the timeless game with modern enhancements
+- **Tournament Mode**: Participate in organized competitions
+- **Real-time Multiplayer**: Play against friends online
+- **AI Opponent**: Challenge our intelligent computer opponent
+- **3D Graphics**: Immersive gaming experience with Babylon.js
+- **Customization**: Personalize your gaming experience
 
-## 📁 Project Structure
+## 🔒 Security Features
 
-```
-├── public/           # Static assets
-├── src/             # Source code
-├── components.json   # shadcn/ui configuration
-├── index.html       # Entry HTML file
-├── package.json     # Project dependencies
-├── tailwind.config.ts # Tailwind CSS configuration
-├── tsconfig.json    # TypeScript configuration
-└── vite.config.ts   # Vite configuration
-```
+- Two-Factor Authentication (2FA)
+- JWT-based authentication
+- Secure password hashing
+- XSS and SQL injection protection
+- HTTPS/WSS support
 
-## 🔧 Configuration
+## 💬 Chat System
 
-The project includes several configuration files:
+- Real-time messaging
+- Direct messages
+- Game invitations
+- Tournament notifications
+- User blocking capability
 
-- `tsconfig.json` - TypeScript configuration
-- `tailwind.config.ts` - Tailwind CSS settings
-- `vite.config.ts` - Vite bundler settings
-- `eslint.config.js` - ESLint rules
-- `postcss.config.js` - PostCSS plugins
+## 👥 User Features
+
+- Custom profiles
+- Avatar upload
+- Friend system
+- Match history
+- Statistics tracking
+- Online status
+
+## 🌐 Supported Languages
+
+- English
+- French
+- Arabic
+
+## 🔧 Technical Stack
+
+- **Frontend**: React, TypeScript, Tailwind CSS
+- **Backend**: Fastify, Node.js
+- **Database**: SQLite
+- **Real-time**: Socket.IO
+- **3D Graphics**: Babylon.js
+- **Authentication**: JWT, 2FA
 
 ## 🤝 Contributing
 
@@ -86,13 +117,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-/index
-/Dashboard
-/Game
-/leaderboard
-/profile
-/settings
-/login
-/Singup
-/tresetPassword
-/chat
+## 🎯 Project Status
+
+Active development - Part of the 42 School curriculum
